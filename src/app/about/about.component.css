@@ -1,0 +1,163 @@
+@media (prefers-color-scheme:dark) {
+    .line {
+        border: 2px solid white !important;
+    }
+}
+
+body {
+    overflow: hidden;
+}
+
+.about-container {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    padding-left: 15em;
+}
+
+.about-heading {
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 0.4em;
+    font-weight: 600;
+}
+
+.line {
+    border: 2px solid black;
+}
+
+.para {
+    /* font-weight: 550; */
+    font-size: 12pt;
+    letter-spacing: 1pt;
+}
+
+.flag {
+    object-fit: contain;
+    height: 25px;
+}
+
+.emoji {
+    height: 12pt;
+}
+
+.primary {
+    margin-top: 5pt;
+}
+
+.primary, .secondary {
+    letter-spacing: 1pt;
+}
+
+.special {
+    font-weight: bold;
+}
+
+.about-image {
+    width: 85%;
+    /* height: 100%; */
+    float: right;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+.image-div {
+    padding-right: 0;
+}
+
+.tech-heading {
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 0.4em;
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+.small {
+    letter-spacing: 0.15em;
+    font-style: italic;
+}
+
+.python-row, .frontend-row, .os-row {
+    padding: 15px;
+}
+
+.tech-button {
+    color: white;
+    border-radius: 5px;
+    background-color: #545b62;
+    max-width: max-content;
+    padding: 5px 10px 5px 5px;
+    margin: 0 5px 10px 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.tech-button:hover {
+    cursor: pointer;
+}
+
+.tech-button:active {
+    transform: translateY(5px);
+    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.tech-image {
+    object-fit: contain;
+    height: 20px;
+}
+
+.tech-name {
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: small;
+    /* letter-spacing: 0.5pt; */
+}
+
+b {
+    color: green;
+}
+
+.resume {
+    margin-top: 2.5em;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    /* transition: transform .5s; */
+    display: inline-block;
+}
+
+.resume:hover {
+    /* -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); */
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .about-container {
+        padding-left: 15px;
+        padding-bottom: 60px;
+    }
+
+    .summary, .tech-stack {
+        padding-top: 5%;
+    }
+
+    .primary {
+        margin-top: 5%;
+    }
+
+    .resume-section {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .tech-heading {
+        letter-spacing: 0.3em;
+    }
+}

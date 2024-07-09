@@ -1,0 +1,30 @@
+@media (prefers-color-scheme:light) {
+    .navbar {
+        background: white;
+    }
+    .nav-link, .navbar-brand {
+        color: grey;
+    }
+    .nav-link:hover, .navbar-brand:hover {
+        transition: all 0.5s ease;
+        color: black;
+    }
+}
+
+@media (prefers-color-scheme:dark) {
+    .navbar {
+        background: black;
+    }
+    .nav-link, .navbar-brand {
+        color: grey;
+    }
+    .nav-link:hover, .navbar-brand:hover {
+        transition: all 0.5s ease;
+        color: white;
+    }
+}
+
+.nav-link, .navbar-brand {
+    font-weight: bold;
+}
+

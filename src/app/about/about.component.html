@@ -1,0 +1,182 @@
+<div class="container-fluid about-container">
+    <div class="row">
+        <div class="image-div col-sm-4 order-sm-12">
+            <img src="../../assets/images/about.jpg" alt="Soub" class="about-image">
+        </div>
+        <div id="about" class="about-div col-sm-8 order-sm-1">
+            <div class="summary">
+                <h1 class="about-heading">About</h1>
+                <hr class="line">
+                <p class="para">
+                    <!-- Hey, my name is Soubhagya Sahoo. I'm a Python fullstack developer from India 
+                    <img src="assets/about/India.png" alt="India flag" class="flag">. <br> -->
+                    I'm passionate about travelling and always curious to learn more when it
+                    comes to new technologies and creative coding. <br>
+                    Some key points of my technical experience that elaborates my skills <img src="assets/images/wink.png" alt="" class="emoji"> :
+                </p>
+                <ul class="primary-points">
+                    <li class="primary">
+                        Developing <b>AI/ML</b> based solutions for a platform which will provide all kinds of AI 
+                        functionalities (in progress).
+                    </li>
+                    <ul>
+                        <li class="secondary">
+                            User can interact with various functionalities like <b>TTS, STT, Summarization, Chatbots</b> etc.
+                        </li>
+                    </ul>
+                    <li class="primary">Designed and developed <b>automated</b> processes for a <b>Circular packaging logistics</b> portal.</li>
+                    <ul>
+                        <li class="secondary">
+                            Functionalities include automated collection reminders to customers, onboarding and inviting new Partners, assigning drivers
+                            for collections, keeping track of SKUs and scheduling generation of reports.
+                        </li>
+                    </ul>
+                    <li class="primary">Designed and developed a portal for waste management handled by a department of <b>Government of Malaysia</b>.</li>
+                    <ul>
+                        <li class="secondary">
+                            It helps the Governmant agency to <b>manage waste</b> and keep the city of <b>KualaLumpur</b> clean.
+                        </li>
+                    </ul>
+                    <li class="primary">
+                        Designed and developed a portal to record and manage <b>device health reports</b> genrated by a RaspberyPi.
+                    </li>
+                    <ul>
+                        <li class="secondary">
+                            It helped the users to tweak the devices to increase <b>performance</b> and <b>life expectancy</b>.
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="tech-stack">
+                <h1 class="tech-heading">Tech stack</h1>
+                <hr class="line">
+                <span class="small">** Click on any of the buttons for more details</span>
+                <div class="python-row row pb-0">
+                    <div class="col-md-2 tech-button" (click)="tech('python')">
+                        <img src="assets/about/Python.png" alt="python" class="tech-image">
+                        <span class="tech-name">Python</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('django')">
+                        <img src="assets/about/Django.png" alt="django" class="tech-image">
+                        <span class="tech-name">Django&nbsp;REST</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('flask')">
+                        <img src="assets/about/Flask.png" alt="flask" class="tech-image">
+                        <span class="tech-name">Flask</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('numpy')">
+                        <img src="assets/about/NumPy.png" alt="numpy" class="tech-image">
+                        <span class="tech-name">NumPy</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('pandas')">
+                        <img src="assets/about/Pandas.png" alt="pandas" class="tech-image">
+                        <span class="tech-name">Pandas</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('transformers')">
+                        <img src="assets/about/hug.png" alt="huggingface" class="tech-image">
+                        <span class="tech-name">Transformers</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('gpt')">
+                        <img src="assets/about/chat-gpt.png" alt="gpt" class="tech-image">
+                        <span class="tech-name">GPT</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('tensorflow')">
+                        <img src="assets/about/TensorFlow.png" alt="tensorflow" class="tech-image">
+                        <span class="tech-name">TensorFlow</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('pytorch')">
+                        <img src="assets/about/PyTorch.png" alt="pytorch" class="tech-image">
+                        <span class="tech-name">PyTorch</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('scikit')">
+                        <img src="assets/about/scikit-learn.png" alt="scikit" class="tech-image">
+                        <span class="tech-name">Scikit</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('matplotlib')">
+                        <img src="assets/about/Matplotlib.png" alt="matplotlib" class="tech-image">
+                        <span class="tech-name">Matplotlib</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('mysql')">
+                        <img src="assets/about/MySQL.png" alt="mysql" class="tech-image">
+                        <span class="tech-name">MySQL</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('psql')">
+                        <img src="assets/about/PostgresSQL.png" alt="psql" class="tech-image">
+                        <span class="tech-name">PostgreSQL</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('sqlalchemy')">
+                        <img src="assets/about/SQLAlchemy.png" alt="sqlalchemy" class="tech-image">
+                        <span class="tech-name">SQLAlchemy</span>
+                    </div>
+                </div>
+                <div class="frontend-row row pt-0 pb-0">
+                    <div class="col-md-2 tech-button" (click)="tech('angular')">
+                        <img src="assets/about/Angular.png" alt="angular" class="tech-image">
+                        <span class="tech-name">Angular</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('ionic')">
+                        <img src="assets/about/Ionic.png" alt="ionic" class="tech-image">
+                        <span class="tech-name">Ionic</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('html')">
+                        <img src="assets/about/HTML5.png" alt="html" class="tech-image">
+                        <span class="tech-name">HTML5</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('css')">
+                        <img src="assets/about/CSS3.png" alt="css" class="tech-image">
+                        <span class="tech-name">CSS3</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('js')">
+                        <img src="assets/about/JavaScript.png" alt="javascript" class="tech-image">
+                        <span class="tech-name">JavaScript</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('bootstrap')">
+                        <img src="assets/about/Bootstrap.png" alt="bootstrap" class="tech-image">
+                        <span class="tech-name">Bootstrap</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('ts')">
+                        <img src="assets/about/TypeScript.png" alt="typescipt" class="tech-image">
+                        <span class="tech-name">TypeScript</span>
+                    </div>
+                </div>
+                <div class="os-row row pt-0 pb-0">
+                    <div class="col-md-2 tech-button" (click)="tech('ubuntu')">
+                        <img src="assets/about/Ubuntu.png" alt="ubuntu" class="tech-image">
+                        <span class="tech-name">Ubuntu</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('windows')">
+                        <img src="assets/about/Windows 8.png" alt="windows" class="tech-image">
+                        <span class="tech-name">Windows</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('mac')">
+                        <img src="assets/about/Apple.png" alt="mac" class="tech-image">
+                        <span class="tech-name">MacOS</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('aws')">
+                        <img src="assets/about/AWS.png" alt="aws" class="tech-image">
+                        <span class="tech-name">AWS</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('jira')">
+                        <img src="assets/about/Jira.png" alt="jira" class="tech-image">
+                        <span class="tech-name">Jira</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('nginx')">
+                        <img src="assets/about/NGINX.png" alt="nginx" class="tech-image">
+                        <span class="tech-name">Nginx</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('firebase')">
+                        <img src="assets/about/Firebase.png" alt="firebase" class="tech-image">
+                        <span class="tech-name">Firebase</span>
+                    </div>
+                    <div class="col-md-2 tech-button" (click)="tech('postman')">
+                        <img src="assets/about/Postman.png" alt="postman" class="tech-image">
+                        <span class="tech-name">Postman</span>
+                    </div>
+                </div>
+            </div>
+            <div class="resume-section">
+                <p id="resume" class="resume" (click)="downloadResume()">&darr; resume</p>
+            </div>
+        </div>
+    </div>
+</div>
